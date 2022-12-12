@@ -59,7 +59,7 @@ nav ul li a:hover{
     height: 27px;
     border-radius: 5px;
     margin: 0 16px 0 56px;
-    padding:0 12px;
+    padding: 0 12px;
 }
 
 .search button{
@@ -81,7 +81,9 @@ nav ul li a:hover{
 
 .cards{
     display: flex; 
-    overflow: hidden;
+    overflow: scroll;
+    background-color: rgb(194, 177, 177);
+    height: 300px;
 }
 
 .card-item{
