@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 :root {
-    --main-bg-color: #2874f0;
+    --main-bg-color: #393a3b;
   }
 
 *{
@@ -23,7 +23,8 @@ nav{
 }
 
 .logo img{
-    width: 88px;
+    height: 25px;
+    width: 105px;
     padding: 0 25px;
 }
 
@@ -99,7 +100,7 @@ nav ul li a:hover{
 }
 
 footer{
-    height: 12vh;
+    height: 10vh;
     background-color: var(--main-bg-color); 
     color: white;
     font-family: 'Lato', sans-serif;
